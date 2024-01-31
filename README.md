@@ -20,11 +20,12 @@
 
 
 
-Фидбек сохраняется в базу или в storage/Repositories/FeedbackRepository.txt
-Выбор драйвера для фабрики FeedbackRepositoryFactory происходит в зависимости от config/repositories.php
-Сохранение в файл реализовано в FileFeedbackRepository
-Сохранение в базу реализовано в DatabaseFeedbackRepository
-Валидация данных на бекенде в FeedbackRequest
+- Фидбек сохраняется в базу или в storage/Repositories/FeedbackRepository.txt
+- Выбор драйвера для фабрики FeedbackRepositoryFactory происходит в зависимости от config/repositories.php
+- Сохранение в файл реализовано в FileFeedbackRepository
+- Сохранение в базу реализовано в DatabaseFeedbackRepository
+- Валидация данных на бекенде в FeedbackRequest
+
 
 Добавлять новые места для хранения заявок можно:
 - добавив новый класс (напр. EmailFeedbackRepository)
